@@ -1,4 +1,4 @@
-# Backup Script with Powershell
+# Remove backups Script with Powershell
 # Removes .xml files in Specific directory, if it's created in more than 7 days
 # The scripts look for all .xml files recursive to the directory that we have selected
 # To add it as a Schedule task add the above on the Schedule Wizard:
