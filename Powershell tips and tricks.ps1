@@ -60,7 +60,7 @@ PS> Uninstall-addsdomaincontroller
 # Restore SRV records after deletion
 cmd> nltest /dsregdns
 
-# Common IPv4 Ports (Exam)
+# Common IPv4 Ports
 80 tcp HTTP, 443 tcp HTTPS, 20/21 tcp FTP, 110 tcp POP, 25 tcp SMTP, 23 tcp Telnet, 162 tcp SNMP Trap, 161 udp SNMP, 143 tcp/udp IMAP, 53 tcp/udp DNS
 
 # IPv6  
