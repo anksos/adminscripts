@@ -1,5 +1,6 @@
 # Restore apache access_logs if they have been deleted
-#
+# Note: If you have Ubuntu or Debian based distribution
+# there is not httpd directories but apache2
 # Scenario:
 
 $ su -
@@ -15,3 +16,4 @@ $ service httpd stop	# stop the httpd service
 $ cp /proc/1784/fd/7 /var/log/httpd/access_log
 $ service httpd start
 $ tail -f /var/log/httpd/access_log 	# to check if we restore it without problem
+
